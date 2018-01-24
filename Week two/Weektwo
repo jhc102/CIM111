@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Joeys awesome webstie</title>
+
+  </head>
+
+    <body>
+
+        <hi>Largest of the tags.</hi>
+        <h2>Slightly smaller than first. </h2>
+
+        <p> These are for making more text. </p>
+
+        <p> This content has a break tag. <br><br> here. </p>
+        <p> We're using <i>italics</i> tag here.</o>
+
+        <p> This is in <b>bold</b></p>
+
+        <p> This is the emphasis tag. </p>
+
+        <p> This is the <strong>strong</strong> tag. </p>
+
+
+          <ol>
+            <li> Panda express. </li>
+            <li> Chipotle </li>
+            <li> Dominos </li>
+
+          </ol>
+          <ul>
+            <li> Tres Leches </li>
+            <li> ice Cream
+                <ol>
+                  <li> Chocolate </li>
+                  <li> Vanilla </li></ol>
+            <li> Cookies </li>
+
+          </ul>
+
+          <h3> ADDRESS TAG </h3>
+
+          <address>
+            Joseph Chica <br>
+            1101 stanford <br>
+            Miami FL <br>
+
+          </address>
+
+
+          <blockquote cite="http://www.google.com.html">
+
+            This is a quote form something that I do not know. </blockquote>
+
+
+        <table>
+          <tr> <th> Item </th>
+              <th> Price </th>
+            </tr>
+              <td>Cookies </td>
+              <td> $0.75 </td>
+
+          </tr>
+
+          <tr>
+            <td> Brownies </td>
+            <td> $1.00 </td>
+
+
+            
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+    </html>
