@@ -2,7 +2,7 @@ body main section ol li{
    list-style: none;
    display: inline-block;
    width: 1000px;
-   margin-right: 200px;
+   margin: 0 auto;
 
 
  }
@@ -26,6 +26,6 @@ header{
  h2{
     color: blue;
     font-family: 'Indie Flower', cursive;
-    margin-right: 195px;
+
 
   }
