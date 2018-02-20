@@ -2,7 +2,7 @@ body main section ol li{
    list-style: none;
    display: inline-block;
    width: 1000px;
-   margin-right: 200px;
+   margin-right: 205px;
 
 
  }
@@ -27,6 +27,6 @@ header{
     color: blue;
     font-family: 'Indie Flower', cursive;
     width: 960px;
-    margin: 0 auto;
+    margin: 240px;
 
   }
