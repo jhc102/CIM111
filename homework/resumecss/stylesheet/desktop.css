@@ -19,11 +19,11 @@ h1{
 
  h2 {
    font-family: cursive;
+   text-aligh: center;
  }
 
 header{
-  width: 960px;
-  margin: 0 auto;
+  text-aligh: center;
   background-color: yellow;
 
 }
