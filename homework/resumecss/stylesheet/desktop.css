@@ -41,8 +41,13 @@ img {
   margin: 0 augto;
 
 }
+#top {
+  background-color: yellow;
 
-address{
+}
+
+#bottom {
+    background-color: green;
     width: 960px;
     margin: 0 auto;
 
