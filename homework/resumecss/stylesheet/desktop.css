@@ -12,9 +12,9 @@ body main section ol li{
 
  }
 
- header{
-    background-color: white;
-    width: 960px;
+ h2 {
+    color: blue;
+    font-family: 'Indie Flower', cursive;
     margin: 0 auto;
-
+    
   }
