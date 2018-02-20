@@ -2,6 +2,7 @@ body main section ol li{
    list-style: none;
    display: inline-block;
    width: 1000px;
+   margin-left: 500px;
 
 
  }
