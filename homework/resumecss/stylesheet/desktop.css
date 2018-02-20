@@ -19,11 +19,10 @@ h1{
 
  h2 {
    font-family: cursive;
-   text-aligh: center;
+
  }
 
 header{
-  text-aligh: center;
   background-color: yellow;
 
 }
@@ -35,7 +34,8 @@ main{
    padding-bottom: 20px;
    padding-right: 20px;
    padding-left: 20px;
-
+   text-alight: center;
+   
 }
 
 a{
