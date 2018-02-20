@@ -2,30 +2,24 @@ body main section ol li{
    list-style: none;
    display: inline-block;
    width: 1000px;
-   margin: 0 auto;
+   margin-left: 500px;
+   margin-right: 200px;
 
 
  }
-
- a{
-   text-decoration: none;
-
-}
+@ -14,13 +14,13 @@ body main section ol li{
 
 h1{
    font-family: monospace;
+   background-color: yellow;
    width: 960px;
     margin: 0 auto;
 
  }
 
 header{
-  background-color: blue;
+  width: 960px;
+  margin: 0 auto;
+  background-color: yellow;
 
 }
- h2{
-    color: blue;
-    font-family: 'Indie Flower', cursive;
-
-
-  }
