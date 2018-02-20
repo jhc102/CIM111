@@ -11,14 +11,14 @@ body main section ol li{
 
 h1{
    font-family: monospace;
-   background-color: yellow;
+   background-color: blue;
    width: 960px;
     margin: 0 auto;
 
  }
 
  h2 {
-   text
+   font-family: cursive;
  }
 
 header{
@@ -26,6 +26,10 @@ header{
   margin: 0 auto;
   background-color: yellow;
 
+}
+
+main{
+    background-color: purple;
 }
 
 a{
