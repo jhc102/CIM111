@@ -11,13 +11,13 @@ body main section ol li{
 
 }
 
- body header h1{
+h1{
    font-family: monospace;
    background-color: yellow;
 
  }
 
-body header{
+header{
   width: 960px;
   margin: 0 auto;
 
