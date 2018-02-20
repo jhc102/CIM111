@@ -2,7 +2,7 @@ body main section ol li{
    list-style: none;
    display: inline-block;
    width: 1000px;
-   margin-left: 500px;
+   margin-right: 200px;
 
 
  }
@@ -14,13 +14,13 @@ body main section ol li{
 
 h1{
    font-family: monospace;
-   background-color: yellow;
+   width: 960px;
+    margin: 0 auto;
 
  }
 
 header{
-  width: 960px;
-  margin: 0 auto;
+  background-color: yellow;
 
 }
  h2{
