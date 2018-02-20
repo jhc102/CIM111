@@ -66,3 +66,28 @@ img {
     margin: 0 auto;
 
 }
+
+.big {
+  color: red;
+
+}
+
+.medium {
+  color: green;
+
+}
+
+.small {
+  color: pink
+
+}
+
+.color {
+  color: purple
+
+}
+
+.time (
+  color: grey;
+  
+  )
