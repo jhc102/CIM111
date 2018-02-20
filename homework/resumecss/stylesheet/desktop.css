@@ -1,4 +1,4 @@
-nav ol li{
+body main section ol li{
    list-style: none;
    display: inline-block;
    margin-right: 20px;
@@ -7,4 +7,12 @@ nav ol li{
  body{
    font-family: sans-serif;
    background-color: yellow;
+
  }
+
+ header{
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+
+  }
