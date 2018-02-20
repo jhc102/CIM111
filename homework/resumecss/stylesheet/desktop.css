@@ -1,6 +1,7 @@
 body main section ol li{
    list-style: none;
    display: inline-block;
+   width: 1000px;
 
 
  }
