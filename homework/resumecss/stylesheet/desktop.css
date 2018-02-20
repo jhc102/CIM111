@@ -11,13 +11,18 @@ body main section ol li{
 
 }
 
- body{
-   font-family: sans-serif;
+ body header h1{
+   font-family: monospace;
    background-color: yellow;
 
  }
 
- h2 {
+body header{
+  width: 960px;
+  margin: 0 auto;
+
+}
+ h2{
     color: blue;
     font-family: 'Indie Flower', cursive;
     width: 960px;
