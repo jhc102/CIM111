@@ -1,9 +1,13 @@
 body main section ol li{
    list-style: none;
    display: inline-block;
-   margin-right: 20px;
-   text-decoration: none;
+   
+
  }
+ body main section ol li a{
+   text-decoration: none;
+
+}
 
  body{
    font-family: sans-serif;
