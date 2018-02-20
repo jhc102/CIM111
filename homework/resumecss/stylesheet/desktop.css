@@ -24,8 +24,14 @@ header{
 
 }
 
-img source{
+img {
   width: 960px;
   margin: 0 augto;
+
+}
+
+address{
+    width: 960px;
+    margin: 0 auto;
 
 }
