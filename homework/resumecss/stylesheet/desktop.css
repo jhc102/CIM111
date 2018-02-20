@@ -12,7 +12,7 @@ body main section ol li{
 h1{
    font-family: monospace;
    background-color: yellow;
-   width: 960px;
+   width: 2000;
     margin: 0 auto;
 
  }
@@ -26,11 +26,10 @@ header{
 
 a{
   text-decoration: none;
-  
+
 }
 
 img {
-  width: 960px;
   margin: 0 augto;
 
 }
