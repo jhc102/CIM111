@@ -1,0 +1,32 @@
+ol li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 auto;
+
+
+}
+
+a{
+  text-decoration: none;
+  color: red;
+
+
+}
+
+a:hover {
+  color: red;
+
+}
+
+
+
+#videos {
+
+  height: auto;
+  margin: 0 augto;
+  display: grid;
+  grid-template-rows: 460 460px 460px 460px;
+  grid-template-columns: 420px;
+  10            grid-column-gap: 200px;
+
+ }

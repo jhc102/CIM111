@@ -1,7 +1,6 @@
-body main section ol li{
+ ol li{
    list-style: none;
    display: inline-block;
-   width: 960px;
    margin: 0 auto;
 
 
@@ -87,7 +86,7 @@ img {
 
 }
 
-.time (
+.time {
   color: grey;
 
-  )
+}
