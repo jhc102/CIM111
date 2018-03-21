@@ -1,4 +1,4 @@
-ol li{
+ol li a{
   list-style: none;
   display: inline-block;
   position: relative;
@@ -15,16 +15,12 @@ h1 {
 }
 
 nav{
-  text-decoration: none;
   color: red;
   font-size: 32px;
 
 }
 
-a:hover {
-  color: red;
 
-}
 
 #about {
   position: relative;
