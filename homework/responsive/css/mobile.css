@@ -1,6 +1,5 @@
-l li{
+ol li{
   list-style: none;
-  display: inline-block;
   position: relative;
   left: 30%;
   top: 5vh;
@@ -24,6 +23,10 @@ nav{
 a:hover {
   color: red;
 
+}
+
+#topmusic {
+    font-size: 18px;
 }
 
 #about {
