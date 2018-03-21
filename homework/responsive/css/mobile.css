@@ -1,7 +1,7 @@
 ol li{
   list-style: none;
   position: relative;
-  left: 30%;
+  left: 35%;
   top: 5vh;
 
 
@@ -26,7 +26,7 @@ a:hover {
 }
 
 #topmusic {
-    font-size: 18px;
+    font-size: 12px;
 }
 
 #about {
