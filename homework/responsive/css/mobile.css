@@ -1,16 +1,23 @@
-ol li{
+l li{
   list-style: none;
   display: inline-block;
-  margin: 0 auto;
+  position: relative;
+  left: 30%;
+  top: 5vh;
 
 
 }
 
-a{
+h1 {
+  position: relative;
+  left: 30%;
+
+}
+
+nav{
   text-decoration: none;
   color: red;
-  margin: 0 auto;
-
+  font-size: 32px;
 
 }
 
@@ -19,6 +26,13 @@ a:hover {
 
 }
 
+#about {
+  position: relative;
+  left: 9%;
+
+
+
+  }
 
 
 #videos {
