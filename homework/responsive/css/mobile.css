@@ -9,6 +9,7 @@ ol li{
 a{
   text-decoration: none;
   color: red;
+  margin: 0 auto;
 
 
 }
@@ -27,6 +28,6 @@ a:hover {
   display: grid;
   grid-template-rows: 460 460px 460px 460px;
   grid-template-columns: 420px;
-  10            grid-column-gap: 200px;
+  grid-column-gap: 200px;
 
  }
