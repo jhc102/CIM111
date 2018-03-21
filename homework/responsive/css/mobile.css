@@ -1,12 +1,17 @@
-ol li{
-  list-style: none;
-  position: relative;
-  left: 40%;
-  top: 5vh;
+ol li a{
+  text-decoration: none;
+  color: red;
+  font-size: 24px;
 
 
 }
 
+ol li {
+  list-style: none;
+  position: relative;
+  left: 31%;
+
+}
 h1 {
   position: relative;
   left: 30%;
