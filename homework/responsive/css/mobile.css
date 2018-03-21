@@ -25,6 +25,13 @@ a:hover {
 
 }
 
+#musicnav {
+  position: relative;
+  left: 35%;
+  top: 5vh;
+
+}
+
 #topmusic {
     font-size: 12px;
 }
