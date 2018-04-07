@@ -1,0 +1,123 @@
+<html>
+
+  <head>
+    <title>Intro to js</title>
+
+    <style>
+      .box{
+        position: relative;
+        left: 25%;
+        top: 5vh;
+          display: grid;
+          grid-template-rows: 60px 60px;
+            grid-template-columns: 100px 100 px;
+          grid-column-gap: 200px;
+
+      }
+    </style>
+
+  </head>
+
+
+  <body>
+
+    <div class="box" id="step1"><h2>Step 1<h2></div>
+    <div class="box" id="step1info"><p>Gather a bowl, measuring cup, oil, egg, and brownie mix.</p></div>
+
+    <div class="box" id="step2"><h2>Step 2<h2></div>
+    <div class="box" id="step2info"><p>Pour one serving of brownie mix into bowl.</p></div>
+
+    <div class="box" id="step3"><h2>Step 3<h2></div>
+    <div class= "box" id="step3info"><p>Add a half cup of water and oil..</p></div>
+
+    <div class="box" id="step4"><h2>Step 4<h2></div>
+    <div class="box" id="step4info"><p>Add an egg and stir.</p></div>
+
+    <div class="box" id="step5"><h2>Step 5<h2></div>
+    <div class="box" id="step5info"><p>Bake for thirty minutes.</p></div>
+
+
+
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script>
+      $(document).ready(function(){
+        //all javascript goes in here
+        $("body").css("background-color", "pink");
+        $("#step1info").hide();
+        $("#step2info").hide();
+        $("#step3info").hide();
+        $("#step4info").hide();
+        $("#step5info").hide();
+        });
+
+        $("#step1").click(function(){
+          $("#step1info").toggle(1000);
+        });
+
+        $("#step1").mouseenter(function(){
+          $("#step1").css("font-size", "20px");
+        });
+
+        $("#step1").mouseleave(function(){
+          $("#step1").css("font-size", "10px");
+        });
+
+
+        $("#step2").click(function(){
+          $("#step2info").toggle(1000);
+        });
+
+        $("#step2").mouseenter(function(){
+          $("#step2").css("font-size", "20px");
+        });
+
+        $("#step2").mouseleave(function(){
+          $("#step2").css("font-size", "10px");
+        });
+
+        $("#step3").click(function(){
+          $("#step3info").toggle(1000);
+        });
+
+        $("#step3").mouseenter(function(){
+          $("#step3").css("font-size", "20px");
+        });
+
+        $("#step3").mouseleave(function(){
+          $("#step3").css("font-size", "10px");
+        });
+
+        $("#step4").click(function(){
+          $("#step4info").toggle(1000);
+        });
+
+        $("#step4").mouseenter(function(){
+          $("#step4").css("font-size", "20px");
+        });
+
+        $("#step4").mouseleave(function(){
+          $("#step4").css("font-size", "10px");
+        });
+
+        $("#step5").click(function(){
+          $("#step5info").toggle(1000);
+        });
+
+        $("#step5").mouseenter(function(){
+          $("#step5").css("font-size", "20px");
+        });
+
+        $("#step5").mouseleave(function(){
+          $("#step5").css("font-size", "10px");
+        });
+
+
+      </script>
+
+  </body>
+
+</html>
