@@ -8,11 +8,15 @@
         position: relative;
         left: 25%;
         top: 5vh;
-          display: grid;
-          grid-template-rows: 60px 60px;
-            grid-template-columns: 100px 100 px;
-          grid-column-gap: 200px;
 
+
+      }
+
+      #container{
+        display: grid;
+        grid-template-rows: 100px 100px 100px 100px 100px;
+        grid-template-columns: 100px 100px 100px;
+        grid-column-gap: 200px;
       }
     </style>
 
@@ -21,20 +25,29 @@
 
   <body>
 
+    <div id="container">
+
     <div class="box" id="step1"><h2>Step 1<h2></div>
     <div class="box" id="step1info"><p>Gather a bowl, measuring cup, oil, egg, and brownie mix.</p></div>
+    <div class="box" id="step1image"></div>
 
     <div class="box" id="step2"><h2>Step 2<h2></div>
     <div class="box" id="step2info"><p>Pour one serving of brownie mix into bowl.</p></div>
+    <div class="box" id="step2image"></div>
 
     <div class="box" id="step3"><h2>Step 3<h2></div>
     <div class= "box" id="step3info"><p>Add a half cup of water and oil..</p></div>
+    <div class="box" id="step3image"></div>
 
     <div class="box" id="step4"><h2>Step 4<h2></div>
     <div class="box" id="step4info"><p>Add an egg and stir.</p></div>
+      <div class="box" id="step4image"></div>
 
     <div class="box" id="step5"><h2>Step 5<h2></div>
     <div class="box" id="step5info"><p>Bake for thirty minutes.</p></div>
+    <div class="box" id="step5image"></div>
+
+  </div>
 
 
 
@@ -47,12 +60,7 @@
       $(document).ready(function(){
         //all javascript goes in here
         $("body").css("background-color", "pink");
-        $("#step1info").hide();
-        $("#step2info").hide();
-        $("#step3info").hide();
-        $("#step4info").hide();
-        $("#step5info").hide();
-        });
+      
 
         $("#step1").click(function(){
           $("#step1info").toggle(1000);
@@ -65,6 +73,13 @@
         $("#step1").mouseleave(function(){
           $("#step1").css("font-size", "10px");
         });
+        $("#step1").mouseenter(function(){
+          $("#step1image").html("<img src='images/box.jpg'>");
+        });
+        $("#step1").mouseleave(function(){
+          $("#step1image").html("");
+        });
+
 
 
         $("#step2").click(function(){
@@ -78,6 +93,19 @@
         $("#step2").mouseleave(function(){
           $("#step2").css("font-size", "10px");
         });
+        $("#step2").mouseenter(function(){
+          $("#step2image").html("<img src='images/bowl.jpg'>");
+        });
+        $("#step2").mouseenter(function(){
+          $("#step2image").html("");
+        });
+        $("#step2").mouseenter(function(){
+          $("#step2image").html("<img src='images/bowl.jpg'>");
+        });
+        $("#step2").mouseleave(function(){
+          $("#step2image").html("");
+        });
+
 
         $("#step3").click(function(){
           $("#step3info").toggle(1000);
@@ -91,6 +119,12 @@
           $("#step3").css("font-size", "10px");
         });
 
+        $("#step3").mouseenter(function(){
+          $("#step3image").html("<img src='images/water.jpg'>");
+        });
+        $("#step3").mouseleave(function(){
+          $("#step3image").html("");
+        });
         $("#step4").click(function(){
           $("#step4info").toggle(1000);
         });
@@ -102,6 +136,13 @@
         $("#step4").mouseleave(function(){
           $("#step4").css("font-size", "10px");
         });
+        $("#step4").mouseenter(function(){
+          $("#step4image").html("<img src='images/eggs.jpg'>");
+        });
+        $("#step4").mouseleave(function(){
+          $("#step4image").html("");
+        });
+
 
         $("#step5").click(function(){
           $("#step5info").toggle(1000);
@@ -114,6 +155,15 @@
         $("#step5").mouseleave(function(){
           $("#step5").css("font-size", "10px");
         });
+        $("#step5").mouseenter(function(){
+          $("#step5image").html("<img src='images/brownies.jpg'>");
+        });
+        $("#step5").mouseleave(function(){
+          $("#step5image").html("");
+        });
+
+
+      });
 
 
       </script>
