@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="jquery.tiltedpage_scroll.js"></script>
+    <link href='tiltedpage_scroll.css' rel='stylesheet' type='text/css'>
+
+
+
+</head>
+
+<body>
+  <div class="main">
+  <section class="page1">
+    <header>
+  <h1>ROME</H1>
+    <p>Rome is home to some of the worlds most historic landmarks, battles, and constructional innovations. Home to one of the most reveered men in the world, the Pope<, Rome is full of history and culture that brings flocks of tourists every year.
+
+  </section>
+  <section class="page2">
+    <img src="images/rome1.jpg" width="550">
+  </section>
+
+  <section class="page3">
+    <img src="images/rome2.jpg" width="550">
+  </section>
+
+  <section class="page4">
+    <img src="images/rome3.jpg" width="550">
+  </section>
+
+  <section class="page5">
+    <img src="images/rome4.jpg"width="550">
+  </section>
+
+  <section class="page6">
+      <img src="images/rome5.jpg" width="550">
+    </section>
+
+    <section class="last-page">
+      <h2>TOP 5 RESTAURANTS IN ROME </h2>
+      <div id="grid1">
+          <div> <h2> Somo <h2>
+          </div>
+
+          <div>
+
+              <h3><a href="http://www.somorestaurant.com">Click Here</a><h3>
+
+          </div>
+
+          <div>
+              <h2>La Pergola<h2>
+          </div>
+          <div>
+            <h3><a href="http://waldorfastoria3.hilton.com/en/hotels/italy/rome-cavalieri-a-waldorf-astoria-resort-ROMHIWA/amenities/restaurants-la-pergola.html"> Click Here </a> </h3>
+          </div>
+
+          <div>
+              <h2>Ristorante Ad Hoc<h2>
+          </div>
+          <div>
+            <h3><a href="http://www.ristoranteadhoc.com/en/default.html"> Click Here </a> </h3>
+          </div>
+
+
+          <div>
+              <h2>Crispi 19<h2>
+              </div>
+                <div>
+                <h3><a href="http://www.ristorantecrispi19.com/en/"> Click Here </a> </h3>
+                </div>
+
+          <div>
+              <h2>MASTO<h2>
+              </div>
+              <div>
+                  <h3><a href="http://feliceatestaccio.it/en/"> Click Here </a> </h3>
+
+
+      </div>
+
+    </section>
+
+</div>
+
+<script>
+$(".main").tiltedpage_scroll({
+    sectionContainer: "> section",     // In case you don't want to use <section> tag, you can define your won CSS selector here
+    angle: 50,                         // You can define the angle of the tilted section here. Change this to false if you want to disable the tilted effect. The default value is 50 degrees.
+    opacity: true,                     // You can toggle the opacity effect with this option. The default value is true
+    scale: true,                       // You can toggle the scaling effect here as well. The default value is true.
+    outAnimation: true                 // In case you do not want the out animation, you can toggle this to false. The defaul value is true.
+  });
+  </script>
+
+
+</body>
+
+</html>
