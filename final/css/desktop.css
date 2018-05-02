@@ -1,7 +1,7 @@
 ol li a{
   text-decoration: none;
-  color: red;
-  font-size: 32px;
+  color: white;
+  font-size: 50px;
 
 
 }
@@ -9,8 +9,7 @@ ol li a{
 ol li {
   list-style: none;
   display: inline-block;
-  position: relative;
-  left: 31%;
+
 
 }
 
