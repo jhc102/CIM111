@@ -1,0 +1,48 @@
+ol li a{
+  text-decoration: none;
+  color: red;
+  font-size: 32px;
+
+
+}
+
+ol li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  left: 31%;
+
+}
+
+h1 {
+  position: relative;
+  left: 30%;
+
+}
+
+
+a:hover {
+  color: red;
+
+}
+
+
+
+
+#about {
+  position: relative;
+  left: 9%;
+
+
+
+  }
+
+#videos {
+
+  height: auto;
+  position: relative;
+  left: 10%;
+  display: grid;
+  grid-template-rows: 300px 300px;
+  grid-template-columns: 420px 420px;
+  grid-column-gap: 200px 280px;

@@ -1,0 +1,58 @@
+ol li a{
+  text-decoration: none;
+  color: red;
+  font-size: 24px;
+
+
+}
+
+ol li {
+  list-style: none;
+  position: relative;
+  left: 50%;
+
+}
+h1 {
+  position: relative;
+  left: 30%;
+
+}
+
+nav{
+  text-decoration: none;
+  color: red;
+  font-size: 32px;
+
+}
+
+#about {
+  position: relative;
+  left: 90%;
+
+}
+
+
+
+#topmusic {
+    font-size: 12px;
+}
+
+#about {
+  position: relative;
+  left: 9%;
+
+
+
+  }
+
+
+#videos {
+
+  height: auto;
+  margin: 0 augto;
+  display: grid;
+  grid-template-rows: 460 460px 460px 460px;
+  grid-template-columns: 420px;
+  grid-column-gap: 200px;
+
+ }
