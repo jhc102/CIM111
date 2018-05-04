@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>See Through the Music</title>
+
+
+
+
+  <link rel="stylesheet" href="css/desktop.css" media="only screen and (min-width: 961px)">
+
+    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 960px)">
+    <script type="text/javascript" src="jquery.js"></script>
+      <script type="text/javascript" src="jquery.tiltedpage_scroll.js"></script>
+      <link href='tiltedpage_scroll.css' rel='stylesheet' type='text/css'>
+
+
+    <meta name="viewport" content="initial-scale=1">
+
+<style>
+  body {
+    background-color: blue;
+
+  }
+
+  a {
+    color: yellow;
+
+  }
+
+</style>
+
+</head>
+
+<body>
+
+<div id="scorenav">
+  <nav>
+      <ol>
+          <li><h3><a href="index.html">Home</a></h3></li>
+          <li><h3><a href="music.html">Music</a></h3></li>
+          <li><h3><a href="events.html">Events</a><h3></li>
+
+      </ol>
+
+  </nav>
+</div>
+
+  <div class="main">
+  <section class="page1">
+    <object width="1000" height="1000" data="pdfs/score1.pdf"></object>
+  </section>
+
+  <section class="page2">
+    <object width="1000" height="1000" data="pdfs/score2.pdf"></object>
+  </section>
+
+  <section class="page3">
+    <object width="1000" height="1000" data="pdfs/score3.pdf"></object>
+  </section>
+
+  <section class="page4">
+    <object width="1000" height="1000" data="pdfs/score4.pdf"></object>
+  </section>
+
+</div>
+
+    <script>
+  $(".main").tiltedpage_scroll({
+      sectionContainer: "> section",     // In case you don't want to use <section> tag, you can define your won CSS selector here
+      angle: 50,                         // You can define the angle of the tilted section here. Change this to false if you want to disable the tilted effect. The default value is 50 degrees.
+      opacity: true,                     // You can toggle the opacity effect with this option. The default value is true
+      scale: true,                       // You can toggle the scaling effect here as well. The default value is true.
+      outAnimation: true                 // In case you do not want the out animation, you can toggle this to false. The defaul value is true.
+    });
+    </script>
+</body>
+</html>
