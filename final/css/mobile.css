@@ -6,10 +6,11 @@ ol li a{
 
 }
 
-ol li {
+  #homenav {
   list-style: none;
   position: relative;
-  left: 50%;
+  left: 46%;
+  top: 10%;
 
 }
 h1 {

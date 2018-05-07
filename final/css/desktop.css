@@ -27,9 +27,6 @@ a:hover {
 }
 
 
-}
-
-
 
 
 
@@ -49,9 +46,9 @@ a:hover {
   }
 
   #homenav {
-    position: relative;
-     margin-left:46%;
-     margin-top: 20%;
+    position: absolute;
+     margin-left:48%;
+     margin-top: -10%;
 
   }
 
@@ -69,7 +66,7 @@ a:hover {
   }
 
   .main {
-    margin-left: -10%;
+    margin-left: 3%;
 
   }
 
